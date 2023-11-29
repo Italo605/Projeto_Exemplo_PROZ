@@ -1,0 +1,76 @@
+**Metadados:**
+1. Definindo o título da página:
+```html
+<head>
+  <title>Título da Página</title>
+</head>
+```
+2. Especificando a codificação de caracteres:
+```html
+<head>
+  <meta charset="UTF-8">
+</head>
+``` 
+
+**Separação de conteúdo:**
+1. Criando um cabeçalho:
+```html
+<header>
+  <h1>Meu Site</h1>
+</header>
+```
+2. Agrupando um conjunto de links de navegação:
+```html
+<nav>
+  <ul>
+    <li><a href="#">Página Inicial</a></li>
+    <li><a href="#">Sobre</a></li>
+    <li><a href="#">Contato</a></li>
+  </ul>
+</nav>
+``` 
+
+**Texto:**
+1. Criando um parágrafo:
+```html
+<p>Este é um parágrafo de exemplo.</p>
+```
+2. Destacando um trecho de texto em negrito:
+```html
+<p>Este texto contém uma palavra em <strong>negrito</strong>.</p>
+``` 
+
+**Imagem:**
+1. Inserindo uma imagem a partir de um arquivo local:
+```html
+<img src="caminho/para/imagem.jpg" alt="Descrição da imagem">
+```
+2. Exibindo uma imagem com um link para outra página:
+```html
+<a href="outra_pagina.html">
+  <img src="caminho/para/imagem.jpg" alt="Descrição da imagem">
+</a>
+``` 
+
+**Formulário:**
+1. Criando um formulário de login com campos de entrada e um botão de envio:
+```html
+<form action="/login" method="post">
+  <label for="username">Usuário:</label>
+  <input type="text" id="username" name="username" required> 
+
+  <label for="password">Senha:</label>
+  <input type="password" id="password" name="password" required> 
+
+  <button type="submit">Entrar</button>
+</form>
+```
+2. Criando uma caixa de seleção com opções:
+```html
+<label for="fruits">Escolha uma fruta:</label>
+<select id="fruits" name="fruits">
+  <option value="apple">Maçã</option>
+  <option value="banana">Banana</option>
+  <option value="orange">Laranja</option>
+</select>
+```
