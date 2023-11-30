@@ -1,0 +1,47 @@
+Aqui está um exemplo de corpo de página em HTML sobre lugares turísticos da Europa:
+
+```html
+<body>
+  <header>
+    <h1>Lugares Turísticos da Europa</h1>
+  </header>
+
+  <section>
+    <h2>Paris, França</h2>
+    <div class="card">
+      <img src="paris.jpg" alt="Torre Eiffel em Paris">
+      <h3>Torre Eiffel</h3>
+      <p>A Torre Eiffel é um dos símbolos mais famosos de Paris e um dos monumentos mais visitados do mundo.</p>
+      <a href="paris.html">Saiba mais</a>
+    </div>
+  </section>
+
+  <section>
+    <h2>Santorini, Grécia</h2>
+    <div class="card">
+      <img src="santorini.jpg" alt="Vista de Santorini">
+      <h3>Ilha de Santorini</h3>
+      <p>Santorini é conhecida por suas belas praias, casinhas brancas e vistas deslumbrantes do Mar Egeu.</p>
+      <a href="santorini.html">Saiba mais</a>
+    </div>
+  </section>
+
+  <section>
+    <h2>Roma, Itália</h2>
+    <div class="card">
+      <img src="roma.jpg" alt="Coliseu em Roma">
+      <h3>Coliseu</h3>
+      <p>O Coliseu é um antigo anfiteatro romano e um dos principais pontos turísticos de Roma.</p>
+      <a href="roma.html">Saiba mais</a>
+    </div>
+  </section>
+
+  <!-- Mais seções com outros lugares turísticos -->
+
+  <footer>
+    <p>&copy; 2023 Lugares Turísticos da Europa. Todos os direitos reservados.</p>
+  </footer>
+</body>
+```
+
+Neste exemplo, utilizei as tags `<header>`, `<section>`, `<div>`, `<img>`, `<h2>`, `<h3>`, `<p>`, `<a>` e `<footer>` para estruturar o conteúdo da página. Cada seção representa um lugar turístico diferente, com uma imagem, título, descrição e um link para saber mais. O rodapé contém informações de direitos autorais.
