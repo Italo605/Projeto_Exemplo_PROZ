@@ -1,0 +1,59 @@
+```html
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ponto Turístico de São Paulo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+    }
+    main {
+      padding: 20px;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ponto Turístico de São Paulo</h1>
+  </header>
+
+  <main>
+    <h2>Parque Ibirapuera</h2>
+    <img src="ibirapuera.jpg" alt="Parque Ibirapuera">
+    <p>O Parque Ibirapuera é um dos principais pontos turísticos da cidade de São Paulo. Localizado na zona sul da cidade, é um grande parque urbano que oferece áreas verdes, lagos, museus e espaços para práticas esportivas e culturais.</p>
+    <p>Além disso, o parque abriga importantes monumentos arquitetônicos, como o Auditório Ibirapuera e o Pavilhão Japonês, e é palco de diversos eventos e exposições ao longo do ano.</p>
+    <p>Visitar o Parque Ibirapuera é uma ótima opção para desfrutar da natureza e da cultura em meio à agitação da cidade.</p>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Ponto Turístico de São Paulo. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
+```
+
+Neste exemplo, utilizei as tags `<header>`, `<main>`, `<img>`, `<h2>`, `<p>`, `<footer>`, além das tags `<style>` para adicionar estilos CSS à página. A imagem do Parque Ibirapuera é referenciada através do atributo `src` na tag `<img>`.
