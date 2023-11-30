@@ -1,0 +1,65 @@
+```html
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lugares que mais gosto de frequentar na minha cidade</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+    }
+    main {
+      padding: 20px;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Lugares que mais gosto de frequentar na minha cidade</h1>
+  </header>
+
+  <main>
+    <h2>Parque do Ibirapuera</h2>
+    <img src="ibirapuera.jpg" alt="Parque do Ibirapuera">
+    <p>O Parque do Ibirapuera é um dos lugares mais populares de São Paulo. Com uma grande área verde, é perfeito para caminhadas, piqueniques e práticas esportivas. Além disso, o parque abriga museus, como o Museu de Arte Moderna (MAM) e o Museu Afro Brasil.</p>
+
+    <h2>Avenida Paulista</h2>
+    <img src="paulista.jpg" alt="Avenida Paulista">
+    <p>A Avenida Paulista é um dos principais cartões-postais de São Paulo. É uma importante via comercial, com diversas lojas, restaurantes e centros culturais. Além disso, abriga alguns dos principais museus da cidade, como o MASP (Museu de Arte de São Paulo).</p>
+
+    <h2>Mercado Municipal</h2>
+    <img src="mercado.jpg" alt="Mercado Municipal">
+    <p>O Mercado Municipal é um lugar icônico em São Paulo. É conhecido por sua variedade de frutas, legumes, queijos e especiarias. Além disso, é famoso pelo tradicional sanduíche de mortadela e pelo pastel de bacalhau.</p>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Lugares que mais gosto de frequentar na minha cidade. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
+```
+
+Nesta página, adicionei informações sobre três lugares populares em São Paulo: Parque do Ibirapuera, Avenida Paulista e Mercado Municipal. Cada lugar é acompanhado por uma imagem relacionada.
