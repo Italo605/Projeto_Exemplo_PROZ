@@ -1,0 +1,119 @@
+Com base na página criada anteriormente, podemos aplicar estilos em CSS para melhorar a aparência da página. Segue abaixo um exemplo de como poderíamos aplicar estilos para melhorar a aparência da página:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ponto turístico em São Paulo</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f2f2f2;
+			margin: 0;
+			padding: 0;
+		}
+
+		header {
+			background-color: #333;
+			color: #fff;
+			padding: 10px;
+		}
+
+		h1 {
+			margin: 0;
+			font-size: 36px;
+		}
+
+		nav {
+			background-color: #666;
+			color: #fff;
+			padding: 10px;
+			text-align: center;
+		}
+
+		nav a {
+			color: #fff;
+			text-decoration: none;
+			padding: 10px;
+		}
+
+		main {
+			padding: 20px;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+
+		article {
+			background-color: #fff;
+			box-shadow: 0px 2px 4px rgba(0,0,0,0.3);
+			margin: 10px;
+			width: 300px;
+			height: 300px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			padding: 20px;
+		}
+
+		article img {
+			width: 200px;
+			height: 200px;
+			object-fit: cover;
+			border-radius: 50%;
+			margin-bottom: 10px;
+		}
+
+		article h2 {
+			font-size: 24px;
+			margin-top: 0;
+		}
+
+		article p {
+			font-size: 16px;
+			text-align: justify;
+			margin-bottom: 10px;
+		}
+
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Ponto turístico em São Paulo</h1>
+	</header>
+
+	<nav>
+		<a href="#">Home</a>
+		<a href="#">Sobre</a>
+		<a href="#">Contato</a>
+	</nav>
+
+	<main>
+		<article>
+			<img src="https://picsum.photos/id/237/200/200" alt="Imagem do lugar 1">
+			<h2>Lugar 1</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, velit at congue aliquet, lorem odio tincidunt sapien, et vestibulum metus ex et nisi.</p>
+		</article>
+
+		<article>
+			<img src="https://picsum.photos/id/238/200/200" alt="Imagem do lugar 2">
+			<h2>Lugar 2</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, velit at congue aliquet, lorem odio tincidunt sapien, et vestibulum metus ex et nisi.</p>
+		</article>
+
+		<article>
+			<img src="https://picsum.photos/id/239/200/200" alt="Imagem do lugar 3">
+			<h2>Lugar 3</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, velit at congue aliquet, lorem odio tincidunt sapien, et vestibulum metus ex et nisi.</p>
+		</article>
+
+    <!-- Adicione quantos articles quiser -->
+
+		
+</main>
+
+</body>
+</html>
+```
+
+Nesse exemplo, apliquei estilos para definir a fonte utilizada no corpo do texto, a cor de fundo do corpo da página e a cor de fundo e cor do texto do cabeçalho e do menu de navegação. Também adicionei estilos para ajustar o espaçamento entre os elementos e definir o tamanho e a sombra dos elementos `<article>` que exibem as informações sobre os lugares turísticos. Além disso, adicionei estilos para definir o tamanho e a forma das imagens exibidas em cada `<article>`.
