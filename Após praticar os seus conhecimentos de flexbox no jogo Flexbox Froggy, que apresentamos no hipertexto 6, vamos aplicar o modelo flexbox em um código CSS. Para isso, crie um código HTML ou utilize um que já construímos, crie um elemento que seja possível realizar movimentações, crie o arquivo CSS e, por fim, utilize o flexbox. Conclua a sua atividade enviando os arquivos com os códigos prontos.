@@ -1,0 +1,46 @@
+Temos o seguinte código HTML:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exemplo Flexbox</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<div class="container">
+
+    <flex-wrap: wrap-reverse; /* quebra a linha de maneira reversa (invertendo a ordem da segunda linha) */ 
+     flex-direction: column-reverse; /* (criar uma coluna na ordem inversa) */ 
+     justify-content: center; /* (centraliza no eixo central - eixo Y) */ 
+     align-content: space-between; /* (alinha os sapos amarelos pelo espaço entre os itens) */>
+
+	  <div class="item">Item 1</div>
+		<div class="item">Item 2</div>
+		<div class="item">Item 3</div>
+	</div>
+</body>
+</html>
+```
+
+Arquivo CSS "styles.css" aplicado ao modelo flexbox da seguinte maneira:
+
+```css
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 300px;
+}
+
+.item {
+	background-color: #f2f2f2;
+	border: 1px solid #ccc;
+	padding: 20px;
+	margin: 10px;
+}
+```
+
+A classe `.container` é definida como um elemento flex, o que faz com que seus filhos (`.item`) sejam organizados em uma linha. A propriedade `justify-content: center` alinha os itens horizontalmente ao centro, enquanto `align-items: center` os alinha verticalmente ao centro.
+
+Dessa forma, os itens dentro do contêiner serão organizados usando o modelo flexbox.
